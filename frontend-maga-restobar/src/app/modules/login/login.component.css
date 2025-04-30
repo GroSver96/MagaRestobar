@@ -1,0 +1,68 @@
+  /* Fondo general */
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #C62828; /* Rojo rubí */
+    font-family: Arial, sans-serif;
+  }
+
+  /* Contenedor principal para centrar */
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  /* Cuadro de login */
+  .login-container {
+    background-color: #1A1A1A; /* Blanco nieve */
+    border: 1px solid #FFC107; /* Dorado suave */
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #FFFFFF; /* Blanco nieve */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Imagen superior */
+  .login-logo {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  /* Inputs */
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #E0E0E0; /* Gris claro */
+  }
+
+  /* Botón */
+  button {
+    padding: 10px 20px;
+    background-color: #FFC107; /* Dorado suave */
+    border: none;
+    border-radius: 6px;
+    color: #1A1A1A; /* Negro elegante */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #e6ac00; /* Dorado más fuerte */
+  }
+  :host {
+    display: block;
+    height: 100vh;
+    background-color: #C62828; /* Fondo rojo */
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
