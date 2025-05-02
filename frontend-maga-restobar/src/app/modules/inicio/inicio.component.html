@@ -1,0 +1,71 @@
+    <div class="container">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="logo" aria-label="Maga Restobar">
+                <img src="img/maga-logo.png" alt="Maga Restobar - Logo principal" class="login-logo" />
+            </div>
+            <div class="title">
+                <h1>Maga RestoBar</h1>
+                <p class="slogan">¡Sabor que conquista!</p>
+            </div>
+            <div class="clock">{{ horaActual }}</div>
+        </header>
+
+        <!-- CONTENIDO PRINCIPAL -->
+            <div class="main-content">
+                <!-- BARRA LATERAL -->
+                <nav class="sidebar">
+                    <ul>
+                    <li><button routerLink="/inicio">Inicio</button></li>
+                    <li><button routerLink="/menu">Menú</button></li>
+                    <li><button routerLink="/proveedores">Proveedores</button></li>
+                    <li><button routerLink="/trabajadores">Añadir Trabajador</button></li>
+                    <li><button routerLink="/cuentas">Cuentas</button></li>
+                    </ul>
+                </nav>
+
+            <body class="main-body">
+                <!-- SECCIÓN DEL MENÚ -->
+                <section class="menu-section"><h1>Menú</h1>
+                    <div class="menu-item"><span>Hamburguesa</span>
+                        <div>
+                            <button>-</button>
+                            <span>0</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="menu-item"><span>Pizza</span>
+                        <div>
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                    </div>
+                    <div class="total">
+                        Total: 45 Bs.
+                    </div>
+                </section>
+                <!-- SECCIÓN DE TRABAJADORES -->
+                <aside class="trabajadores"><H1>Trabajadores</H1>
+                    <div class="empleado"><span>Rudy</span>
+                        <div>
+                            <button>Ingreso</button>
+                            <button>Salida</button>
+                        </div>
+                    </div>
+                    <div class="empleado"><span>Julio</span>
+                        <div>
+                            <button>Ingreso</button>
+                            <button>Salida</button>
+                        </div>
+                    </div>
+                    <div class="empleado"><span>Ivan</span>
+                        <div>
+                            <button>Ingreso</button>
+                            <button>Salida</button>
+                        </div>
+                    </div>
+                </aside>
+            </body>
+            </div>
+    </div>

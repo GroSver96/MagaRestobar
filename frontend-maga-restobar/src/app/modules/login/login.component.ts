@@ -27,7 +27,6 @@ export class LoginComponent {
   login() {
     // Aquí puedes llamar al backend más adelante
     if (this.email === 'admin@maga.com' && this.password === '1234') {
-      alert('Inicio de sesión exitoso');
       this.router.navigate(['/inicio']);
     } else {
       alert('Credenciales incorrectas');
